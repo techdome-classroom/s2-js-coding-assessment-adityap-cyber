@@ -17,7 +17,7 @@ var isValid = function(s) {
         if (char in bracketMap) {  
             const topElement = stack.length > 0 ? stack.pop() : '#';
             
-            // If the popped element doesn't match the corresponding opening bracket, return false
+            
             if (bracketMap[char] !== topElement) {
                 return false;
             }
