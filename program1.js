@@ -12,7 +12,7 @@ var isValid = function(s) {
    
     const stack = [];
     
-    // Iterate over each character in the string
+    
     for (let char of s) {
         if (char in bracketMap) {  // If it's a closing bracket
             // Pop from the stack if not empty, otherwise use a dummy value '#'
