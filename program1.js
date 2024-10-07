@@ -9,7 +9,7 @@ var isValid = function(s) {
         ']': '['
     };
     
-    // Stack to store the opening brackets
+   
     const stack = [];
     
     // Iterate over each character in the string
